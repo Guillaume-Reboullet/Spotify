@@ -24,11 +24,11 @@ Spotify is a web application that mimics the functionality of a music streaming 
     npm install
     ```
 
-<!-- 3. Set up the API using Docker:
+3. Set up the API using Docker:
     ```bash
-    docker pull matfire/spotitech
-    docker run -p 8000:8000 matfire/spotitech
-    ``` -->
+    cd .. (be in the foler where there is docker-compose.yml)
+    docker-compose up -d
+    ```
 
 4. Start the development server:
     ```bash
